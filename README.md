@@ -775,3 +775,14 @@ So far we have see some important structures that are used. Lets revise them :
 2. `in_addr` - IP address in long format
 3. `sockaddr`
 4. `hostent` - The IP addresses of a hostname. Used by `gethostbyname`
+
+An usefull function to get the IP of a generic domain host first address is
+```C++
+#include<netdb.h>
+
+string get_host_ip(string hostname){
+	struct hostent *host = gethostbyname(hostname.c_str());
+	char* ip_buffer = inet_ntoa(*((struct in_addr*) host->h_addr_list[0]));
+	return ip_buffer;
+}
+```
