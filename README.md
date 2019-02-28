@@ -1,5 +1,5 @@
 # Sockets in C/C++ for Raspberry Pi
-This is a quick tutorial on socket programming in C on a Raspbian Raspberry Pi, based on [Socket programming in C on Linux – tutorial](https://www.binarytides.com/socket-programming-c-linux-tutorial/). I complemented with a part for Raspbian OS, and some changes more likely to my personal taste. 
+This is a quick tutorial on socket programming in C/C++ on a Raspbian Raspberry Pi, based on [Socket programming in C on Linux – tutorial](https://www.binarytides.com/socket-programming-c-linux-tutorial/). I complemented with a part for Raspbian OS, and some changes more likely to my personal taste. 
 
 ## Sockets
 * *Sockets* are the "virtual" endpoints of any kind of network communications done between 2 hosts over in a network. 
